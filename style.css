@@ -1,0 +1,207 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Lilita One';
+     font-size: 22px;
+ }
+
+ body {
+     background-color: #f5f5f5;
+     color: black;
+     text-align: center;
+ }
+
+ .header {
+     background-color: #73d673;
+     padding: 15px 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .title {
+     font-size: 24px;
+     text-decoration: none;
+     color: black;
+ }
+
+ .nav {
+     display: flex;
+     gap: 15px;
+ }
+.nav a{
+ text-decoration: none;
+ color: black;
+ font-weight: bold;
+ transition: 0.3s;
+ }
+
+ .nav a:hover {
+     color: white;
+ }
+
+ .start-btn {
+     background: #FFFFFF;
+     color: white;
+     padding: 10px 15px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     font-weight: bold;
+     color: black;
+     transition: 0.3s;
+ }
+
+ .start-btn:hover {
+     background-color: #FFFFFF;
+     color: #8CE590;
+ }
+
+ .container {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 20px;
+     padding: 20px;
+ }
+
+  .card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      text-align: left;
+      border: 3px solid #32cd32;
+  }
+
+  .card h2 {
+      background-color: #32cd32;
+      padding: 5px;
+      border-radius: 5px;
+      color: white;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .promo {
+      margin: 40px 0;
+      font-size: 24px;
+      font-weight: bold;
+  }
+
+  .promo-btn {
+      background-color: #32cd32;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+      content: 'url(./img/pro.jpg)';
+  }
+
+  .promo-btn:hover {
+
+      color: black;
+  }
+
+  .socials {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+  }
+
+  .socials button {
+      background-color: #73d673;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: 0.3s;
+  }
+
+  .socials button:hover {
+      background-color: #5eb55e;
+  }
+
+  .login-btn {
+      background-color: #8CE590;
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: 2px solid #8CE590;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+      text-decoration: none;
+      color: #FFFFFF;
+  }
+
+  .login-btn:hover {
+      background-color: #8CE590;
+      color: white;
+  }
+
+  @media (max-width: 768px) {
+      .container {
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .card {
+          width: 80%;
+      }
+  }
+
+  footer {
+      margin: 5px;
+      background-color: #8CE590;
+      height: 200x;
+      width: 100%;
+  }
+
+  .form-title{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  input{
+    border: 2px solid #8CE590;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .form-subtitle{
+    color: #32cd32;
+  }
+
+  .form-pos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .singup-btn{
+    background-color: #73d673;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-bottom: 40px;
+  }
+
+  .singup-btn:hover{
+    background-color: #5eb55e;
+  }
